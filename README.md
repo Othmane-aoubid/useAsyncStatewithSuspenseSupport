@@ -80,6 +80,4 @@ const { data } = useAsyncState(
 - `execute`: `() => Promise<void>` - Function to manually trigger the async operation
 - `abort`: `() => void` - Function to cancel the current operation
 
-## License
 
-MIT
