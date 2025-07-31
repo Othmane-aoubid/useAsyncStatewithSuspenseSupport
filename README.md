@@ -13,17 +13,17 @@ A Vue 3 composable for handling async state with built-in Suspense support, requ
 ## Installation
 
 ```bash
-npm install use-async-state-suspense
+npm install useaysnc
 # or
-yarn add use-async-state-suspense
+yarn add useaysnc
 # or
-pnpm add use-async-state-suspense
+pnpm add useaysnc
 ```
 
 ## Basic Usage
 
 ```typescript
-import { useAsyncState } from 'use-async-state-suspense'
+import { useAsyncState } from 'useaysnc'
 
 // In your component setup
 const { data, pending, error, execute, abort } = useAsyncState(
@@ -83,4 +83,3 @@ const { data } = useAsyncState(
 ## License
 
 MIT
-
